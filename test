@@ -1,0 +1,8 @@
+echo "# It-s-a-Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/drivetestlucidchart/It-s-a-Test.git
+git push -u origin main
+                
